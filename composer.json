@@ -1,0 +1,41 @@
+{
+    "name": "novay/laravel-samarinda",
+    "description": "Package Laravel yang berisi data Kecamatan, dan Keluarahan/Desa di Samarinda.",
+    "keywords": ["laravel", "samarinda", "kecamatan", "kelurahan", "desa", "api"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noviyanto Rahmadi",
+            "email": "novay@enterwind.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Novay\\Samarinda\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Novay\\Samarinda\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php" : ">=5.5.0",
+        "illuminate/support": "~5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "squizlabs/php_codesniffer": "2.*",
+        "orchestra/testbench": "~3.0"
+    },
+   "extra": {
+       "laravel": {
+           "providers": [
+               "Novay\\Samarinda\\SamarindaServiceProvider"
+           ],
+           "aliases": {
+               "Samarinda" : "Novay\\Samarinda\\Facade"
+           }
+       }
+   }
+}

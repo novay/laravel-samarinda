@@ -1,5 +1,10 @@
 # LARAVEL SAMARINDA
 
+[![Total Downloads](https://poser.pugx.org/novay/laravel-samarinda/d/total.svg)](https://packagist.org/packages/novay/laravel-samarinda)
+[![Build Status](https://secure.travis-ci.org/novay/laravel-samarinda.png?branch=master)](http://travis-ci.org/novay/laravel-samarinda)
+[![Latest Stable Version](https://poser.pugx.org/novay/laravel-samarinda/v/stable.svg)](https://packagist.org/packages/novay/laravel-samarinda)
+[![License](https://poser.pugx.org/novay/samarinda/license.svg)](https://raw.githubusercontent.com/novay/laravel-auth/LICENSE)
+
 Package Laravel yang berisi data Kecamatan dan Kelurahan di Kota Samarinda.  
 
 ## Instalasi
